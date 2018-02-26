@@ -1,0 +1,31 @@
+body{
+	background: #70B251;
+	/*background: rgb(255,255,255);*/
+	/*background: rgba(155,155,155,1);*/
+	/*background: #000000;*/
+
+	color: white;
+}
+
+header {
+	border: 5px solid black ;
+	text-align: center;
+}
+header nav ul li{
+	background: tomato;
+	border: 2px solid orange ;
+	border-radius: 5px; /* El borde de la esquina redondeado*/
+	display: inline-block;/* hace que los elementos se adapten a su contenido o tama;o*/
+	width: 90px
+
+}
+
+header nav ul li:hover /* Cuando paso el cursor por arriba*/
+{
+	background: red;
+	border: 2px solid white ;
+	border-radius: 5px; /* El borde de la esquina redondeado*/
+	display: inline-block;/* hace que los elementos se adapten a su contenido o tama;o*/
+	width: 90px
+
+}
