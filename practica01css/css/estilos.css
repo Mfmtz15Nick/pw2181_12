@@ -7,6 +7,7 @@ body{
 
 header{
 	background: #B3D8EB;
+	/*margin-bottom: 15px;*/
 }
 header nav{
 	background:  #0E6CB0;
@@ -16,9 +17,19 @@ header nav{
 	width: 99%;
 
 }
-header nav form{
+header nav form {
 	float:right;
-	margin-top: -34px;
+	margin-top: -40px;
+	margin-right: 20px;
+
+}
+header nav form input{ /*Todos los inputs*/
+	border-radius:5px;
+}
+header nav form input[type="button"]{
+	background: green;
+	border:1px solid green;
+	color:white;
 
 }
 header nav ul li{ 
@@ -29,3 +40,44 @@ header nav ul li{
 #logo{
 	margin-top: -150px;
 }
+#seccion01{
+	margin-top:15px;
+} 
+#seccion01 article{
+	text-align: center;/*Centrar todos los elementos que estan en seccion 01*/
+}
+#seccion01 article img{
+	border:5px solid rgba(150,150,150,0.5);
+	width: 98%
+}
+#seccion02 article{
+	display: inline-block;
+	vertical-align: top;
+	width: 32.8%;
+}
+#seccion02 article input[type="submit"]{
+	background: solid white;
+	border-radius: 5px;
+	color:blue;
+	margin-left: 130px; 
+
+}
+
+/*Los id empiezan con gato*/
+/*Las clases empiezan con punto*/
+.unaSeccion{
+	font-size: 4.5em;	
+}
+.otraSeccion{
+	font-size: 2.5em;	
+	
+}
+/*Multiples selectores para distintos atributos. Reutilizar codigo*/
+.otraSeccion,.unaSeccion{
+	font-weight: bold;
+}
+
+
+
+
+
