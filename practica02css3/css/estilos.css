@@ -36,33 +36,64 @@ header nav ul li{
 #paint{
 	float:right;
 }
-#primerseccion{
-	height: 318px;/*Alto de la imagen*/
+#primeraseccion
+{
+	height: 318px;
 	margin-top: 60px;
 }
-#primerseccion article{
+#primeraseccion article
+{
 	display: inline-block;
-	vertical-align: top;/*Subir los componentes para arriba*/
+	vertical-align: top;
+
 }
-#secc01art01{
-	margin-left: 30px;
+#secc01art01
+{	
 	width: 60%;
-}
-#secc01art02{
+	margin-left: 30px;
+ }
+#secc01art02
+{  
+	width: 30%; 
 	margin-left: 50px;
-	width: 30px
 }
-#secc01art02 ul{
-	list-style: none;/*Destruir bolitas*/
+#secc01art02 ul /*quitamos viñetas*/
+{
+	list-style: none;
+
 }
-#secc01art02 ul li:before{
-	color:#F9D5E6;
-	content: "";
-	 
+#secc01art02 ul li:before
+{
+	content: "•";
+	color:#b28787;
 }
 #segundaseccion article{
 	text-align: right;
 	padding-right: 122px;
+}
+#terceraseccion article{
+	display: inline-block;
+	vertical-align: top;
+	width: 23%;
+}
+#terceraseccion article img{
+	/*Alineacion vertical de la imagen*/
+	vertical-align: middle;
+}
+#terceraseccion article input[type="email"]{
+	border-radius: 5px;
+}
+#terceraseccion article input[type="button"]{
+	background: #A4CD28;
+	border-radius: 5px;
+	color: white;
+}
+.colorazul{
+	color:#629AD4;
+
+}
+.coloverde{
+	color:#8BC500;
 }
 .colorrosa{
 	color:#FF0099;
