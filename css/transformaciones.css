@@ -1,0 +1,36 @@
+article{
+	background: greenyellow;
+	border: 2px solid black;
+	color: black;
+	margin:20px 5px;
+	padding:15;
+	text-align: center;
+	-o-transition:all 5s linear;
+	-ms-transition:all 5s linear;
+	-webkit-transition:all 5s linear;
+	-moz-transition:all 5s linear;
+	transition:all 5s linear;
+
+
+	width: 400px;
+}
+article p{
+	font: 30px Tahoma;
+	font-weight: bold;
+	width: 100%;
+}
+/*Cuando pasamos el mouse por encima*/
+/*article:hover{
+	height: 400px;
+	width: 800px;
+}*/
+article:hover{
+	background: black;
+	color: greenyellow;
+	/*Mover 150 pixeles a la derecha y 300 abajo*/
+	-o-transform: translate(150px,300px);
+	-ms-transform: translate(150px,300px);
+	-webkit-transform: translate(150px,300px);
+	-moz-transform: translate(150px,300px);
+	transform: translate(150px,300px);
+}
