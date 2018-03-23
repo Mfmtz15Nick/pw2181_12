@@ -20,17 +20,40 @@ article p{
 	width: 100%;
 }
 /*Cuando pasamos el mouse por encima*/
-/*article:hover{
+article:hover{
 	height: 400px;
 	width: 800px;
-}*/
+}
+
 article:hover{
 	background: black;
 	color: greenyellow;
 	/*Mover 150 pixeles a la derecha y 300 abajo*/
-	-o-transform: translate(150px,300px);
-	-ms-transform: translate(150px,300px);
-	-webkit-transform: translate(150px,300px);
-	-moz-transform: translate(150px,300px);
-	transform: translate(150px,300px);
+	-o-transform: translate(150px,150px) scale(2.3) skew(10deg,10deg);
+	-ms-transform: translate(150px,150px) scale(2.3) skew(10deg,10deg);
+	-webkit-transform: translate(150px,150px) scale(2.3) skew(10deg,10deg);
+	-moz-transform: translate(150px,150px) scale(2.3) skew(10deg,10deg);
+	transform:  translate(150px,150px) scale(2.3) skew(10deg,10deg);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
