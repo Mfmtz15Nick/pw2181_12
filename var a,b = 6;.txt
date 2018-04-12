@@ -1,0 +1,51 @@
+var a,b = 6;
+undefined
+b
+6
+a
+undefined
+a=5;
+5
+var c = a + b;
+undefined
+c
+11
+
+alert('JavaScript es bueno');
+undefined
+var respuesta = prompt("Dame un numero ",0);
+undefined
+respuesta
+"66"
+function suma(a,b){
+    return a + b }
+undefined
+suma
+ƒ suma(a,b){
+    return a + b }
+var sumaNumeros = function(a,b){
+    return a + b; }
+
+
+sumaNumeros
+ƒ (a,b){
+    return a + b; }
+suma(1,2);
+3
+sumaNumeros(4,4);
+8
+document.write("Hola");
+undefined
+document.write("<article id='dem'></article>");
+
+document.getElementById('dem').innerHTML="Mi Article";
+"Mi Article"
+document.write("<input type='text' id='txt'>");
+undefined
+document.getElementById('txt').value=81;
+81
+
+document.write("<button>Da click</button>");
+undefined
+document.write("<button onclick=alert('Click')>Da click</button>");
+undefined
