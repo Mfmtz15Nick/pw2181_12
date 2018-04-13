@@ -1,0 +1,136 @@
+body
+{
+	font-size: 16px;
+	margin :0 auto;
+	max-width: 1090px;
+	min-width: 1090px;
+	border: 1px solid orange;
+}
+header img{
+	margin-top: 20px;
+	margin-left: 50px;
+}
+header p{
+	float: right;
+}
+header nav{
+	margin-left: 250px;
+	margin-top: -130px;
+}
+header nav ul li{
+	display: inline-block;
+	padding: 20px;
+}
+#seccion01 img{
+	border-radius: 2000px;
+	margin-left: 50px;
+	margin-top: 100px;
+	width: 400px
+}
+#seccion01 article img{
+	vertical-align: middle;
+}
+#nav{
+	margin-left: 500px;
+	margin-top: -400px;
+}
+
+#seccion01 nav ul li{
+	/*background: pink;*/
+	border-radius: 250px;
+	color: white;
+	display: inline-block;
+	/*float: right;*/
+	height: 30px;
+	padding: 50px;
+	vertical-align: top;
+	width: 30px;
+
+}
+#seccion01 nav ul #services{
+	background: orange;
+}
+#seccion01 nav ul #flavors{
+	background: #678CF8;
+}
+#seccion01 nav ul #eye{
+	background: pink;
+}
+#welcome{
+	margin-left: 550px;
+	margin-top: 50px;
+}
+#bon{
+	margin-left: 550px;
+	margin-top: 20px;
+}
+#seccion03 article nav{
+	margin-left: 650px;
+}
+#seccion03 article nav ul li{
+	display: inline-block;
+	padding: 10px;
+	padding-bottom: 30px;
+	position: relative;
+}
+#seccion04 article{
+	display: inline-block;
+	margin-right: 100px;
+}
+#sec02art01{
+	/*margin-top: -100px;*/
+	margin-left: 50px;
+}
+#bon{
+	font-size: 0.5em;
+	
+}
+#sec04art02{
+	margin-left: 300px;
+}
+
+.colorrosa
+{
+	color: #F198D4;
+}
+.colorazul
+{
+	color: #678CF8;
+}
+
+.nito
+ {
+	font-weight: bold;
+ }
+ .ita
+ {
+	font-weight: italic;
+ }
+
+
+.coloramarillo
+{
+	background: : #F0DF29;
+}
+
+ .letramediana
+{ 
+	font-size: 2em;
+}
+.letrachica
+{ 
+	font-size: 1em;
+ }
+ .ultrachica{
+ 	font-size: .5em;
+ }
+
+
+
+
+
+
+
+
+
+
