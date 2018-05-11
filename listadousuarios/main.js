@@ -3,6 +3,16 @@ const path = require('path')
 const url = require('url')
 
 let pantallaPrincipal ;
+
+//Objeto global para compartir datos entre pantallas
+global.infoUsuarios={
+    nombre:'',
+    genero:'',
+    direccion:'',
+    telefono:''
+}
+
+
 function muestraPantallaPrincipal(){
     pantallaPrincipal = new BrowserWindow({width:320,height:425})
     pantallaPrincipal.loadURL(url.format({
