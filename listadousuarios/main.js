@@ -9,7 +9,8 @@ global.infoUsuarios={
     nombre:'',
     genero:'',
     direccion:'',
-    telefono:''
+    telefono:'',
+    foto:' '
 }
 
 

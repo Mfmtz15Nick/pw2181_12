@@ -1,9 +1,11 @@
 const $ = require('jquery');
 
-var nombre=require('electon').remote.getGlobal('infoUsuarios').nombre;
-var genero=require('electon').remote.getGlobal('infoUsuarios').genero;
-var direccion=require('electon').remote.getGlobal('infoUsuarios').direccion;
-var telefono=require('electon').remote.getGlobal('infoUsuarios').telefono;
+var foto=require('electron').remote.getGlobal('infoUsuarios').foto;
+var nombre=require('electron').remote.getGlobal('infoUsuarios').nombre;
+var genero=require('electron').remote.getGlobal('infoUsuarios').genero;
+var direccion=require('electron').remote.getGlobal('infoUsuarios').direccion;
+var telefono=require('electron').remote.getGlobal('infoUsuarios').telefono;
+
 
 $("#idNombre").html(nombre);
 $("#idGenero").html(genero);
