@@ -48,6 +48,7 @@ function botonDetalle(){
    require('electron').remote.getGlobal('infoUsuarios').genero=usuarios[this.id].genero;
    require('electron').remote.getGlobal('infoUsuarios').direccion=usuarios[this.id].direccion;
    require('electron').remote.getGlobal('infoUsuarios').telefono=usuarios[this.id].telefono;
+   require('electron').remote.getGlobal('infoUsuarios').foto=usuarios[this.id].foto;
    
     pantallaDetalle = new BrowserWindow({width:320,height:425});
     pantallaDetalle.loadURL(url.format({
