@@ -16,6 +16,7 @@ function datos(nombre,genero,foto,direccion,telefono){
 }
 
 function inicia(){
+    
     var resultado ="";
     var nombre="";
     var foto = "";
@@ -56,6 +57,7 @@ function botonDetalle(){
         protocol:'file',
         slashes:true
     }));
+    
     //pantallaDetalle.webContents.openDevTools();
     pantallaDetalle.show();
 }
