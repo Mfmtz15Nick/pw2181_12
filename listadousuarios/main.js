@@ -1,16 +1,7 @@
 const {app,BrowserWindow} = require('electron')
 const path = require('path')
 const url = require('url')
-//Constantes para PDF
-const electron = require('electron');
-//Sistema de archivos
-const fs = require('fs');
-//Acceso al sistema operativo
-const os = require('os');
-//Para declarar una funcion remota
-const ipc = electron.ipcMain;
-//Acceso a la terminal-linea de comandos
-const shell = electron.shell;
+
 
 
 let pantallaPrincipal ;
