@@ -15,7 +15,7 @@ function valida(){
     print json_encode($salidaJSON);
 }
 $opc=$_POST["opc"];
-switch ($opce) {
+switch ($opc) {
     case 'validaentrada':
         valida();
         break;
