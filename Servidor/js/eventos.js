@@ -15,7 +15,12 @@ var inicioApp = function(){
             data: parametros,
             success: function(response){
                 if(response.respuesta==true){
-                    alert("Bienvenido");
+                    //Ocultamos inicio
+                    $("#secInicio").hide(("slow"));
+                    //Aparecer Usuario
+                    $("#frmUsuarios").show("slow");
+                    //Cursor en el primer cuadro de texto
+                    $("#txtNombreUsuario").focus();
                 }else{
                     alert("Error");
                 }
@@ -27,7 +32,43 @@ var inicioApp = function(){
             }
         });
     }
+    var buscarUsuario = function(){
+        var usuario = $("#txtNombreUsuario").val();
+        var parametros = "opc=buscarUsuario"+
+                         "&usuario="+usuario+
+                         "&aleatorio="+Math.random();
+        if(usuario != ""){
+            $.ajax({
+                cache:false,
+                type:"POST",
+                dataType: "json",
+                url: "php/buscausuario.php",
+                data: parametros,
+                success: function(response){
+                    if(response.respuesta == true){
+                        $("#txtNombre").val(response.nombre);
+                        $("#txtClaveUsuario").val(reponse.clave);
+                    }else{
+                        $("#txtNombre").focus();
+                    }
+                    
+    
+                },
+                error: function(xhr,ajaxOptions,thrownError){
+                    console.log(xhr);
+    
+                }
+            });
+
+        }
+    }
+    var teclaNombreUsuario = function(tecla){
+        if(tecla.which == 13){//Enter
+            buscarUsuario();
+        }
+    }
     $("#btnAceptar").on("click",Aceptar);
+    $("txtNombreUsuario").on("keypress",teclaNombreUsuario);
 
 }
 $(document).ready(inicioApp);
