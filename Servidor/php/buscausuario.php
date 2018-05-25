@@ -18,7 +18,7 @@ function buscarusuario(){
         }
     }
     $salidaJSON = array('respuesta' => $respuesta,
-                        'nombre'    => $nombre
+                        'nombre'    => $nombre,
                         'clave'     => $clave );
     print json_encode($salidaJSON);
 }
